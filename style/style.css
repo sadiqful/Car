@@ -53,3 +53,16 @@
         transform: translateX(-1400px);
     }
 }
+
+.car {
+    width: 400px;
+    bottom: 100px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.car img {
+    width: 100%;
+}
