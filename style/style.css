@@ -26,3 +26,9 @@
     background-repeat: repeat-x;
     animation: highway 5s linear infinite;
 }
+
+@keyframes highway {
+    100% {
+        transform: translateX(-3400px);
+    }
+}
