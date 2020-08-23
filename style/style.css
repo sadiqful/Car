@@ -27,8 +27,29 @@
     animation: highway 5s linear infinite;
 }
 
+
 @keyframes highway {
     100% {
         transform: translateX(-3400px);
+    }
+}
+
+.city {
+    height: 250px;
+    width: 500%;
+    position: absolute;
+    background-image: url(../images/city.png);
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite;
+}
+
+@keyframes city {
+    100% {
+        transform: translateX(-1400px);
     }
 }
