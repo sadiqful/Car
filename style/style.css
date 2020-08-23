@@ -13,3 +13,14 @@
     background-position: center;
     overflow-x: hidden;
 }
+
+.highway {
+    height: 200px;
+    width: 500%;
+    position: absolute;
+    background-image: url(../images/road.jpg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
