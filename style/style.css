@@ -65,4 +65,30 @@
 
 .car img {
     width: 100%;
+    animation: car 1s linear infinite;
+}
+
+@keyframes car {
+    100% {
+        transform: translateY(-1px);
+    }
+    50% {
+        transform: translateY(1px);
+    }
+    0% {
+        transform: translateY(-1px);
+    }
+}
+
+.wheel {
+    bottom: 178px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.wheel img {
+    height: 72px;
+    width: 72px;
 }
