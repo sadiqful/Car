@@ -81,7 +81,7 @@
 }
 
 .wheel {
-    bottom: 178px;
+    bottom: 182px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -91,4 +91,21 @@
 .wheel img {
     height: 72px;
     width: 72px;
+    animation: wheel 1s linear infinite;
+}
+
+.back-wheel {
+    position: absolute;
+    left: -164px;
+}
+
+.front-wheel {
+    left: 79px;
+    position: absolute;
+}
+
+@keyframes wheel {
+    100% {
+        transform: rotate(360deg);
+    }
 }
